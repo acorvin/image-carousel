@@ -13,7 +13,7 @@ body {
   margin: 0 auto;
   width: 70%;
   min-height: 60vh;
-  background: url('../img/smile-0.jpg') center/contain fixed no-repeat;
+  background: url('img/smile-0.jpg') center/contain fixed no-repeat;
   border: 0.5rem solid var(--mainWhite);
   border-radius: 0.5rem;
   position: relative;
