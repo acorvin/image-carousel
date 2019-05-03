@@ -1,0 +1,78 @@
+:root {
+  --mainDark: #262626;
+  --mainWhite: #e4e4e4;
+}
+.max-height {
+  min-height: 100vh;
+}
+body {
+  background: var(--mainDark);
+}
+.img-container {
+  top: 8em;
+  margin: 0 auto;
+  width: 70%;
+  min-height: 60vh;
+  background: url('../img/smile-0.jpg') center/contain fixed no-repeat;
+  border: 0.5rem solid var(--mainWhite);
+  border-radius: 0.5rem;
+  position: relative;
+}
+.fas:hover {
+  pointer-events: none;
+}
+.btn-left {
+  position: absolute;
+  padding: 4px 8px;
+  border-radius: 8px;
+  top: 50%;
+  left: 0;
+  background: var(--mainWhite);
+  color: var(--mainDark) !important;
+  transform: translate(-50%, -50%);
+  border: 0.2rem solid var(--mainWhite);
+  font-size: 2rem;
+}
+.btn-left:hover {
+  border-color: var(--mainWhite);
+  background: var(--mainDark);
+  color: var(--mainWhite) !important;
+}
+.btn-right {
+  position: absolute;
+  padding: 4px 8px;
+  border-radius: 8px;
+  top: 50%;
+  right: 0;
+  background: var(--mainWhite);
+  color: var(--mainDark) !important;
+  font-size: 2rem;
+  transform: translate(50%, -50%);
+  border: 0.2rem solid var(--mainWhite);
+}
+.btn-right:hover {
+  border-color: var(--mainWhite);
+  background: var(--mainDark);
+  color: var(--mainWhite) !important;
+}
+/* Set display for mobile devices */
+@media screen and (min-width: 900px) {
+  .img-container {
+    min-height: 90vh;
+    background-position: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .img-container {
+    min-height: 70vh;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 420px) {
+  .img-container {
+    top: 15em;
+    min-height: 30vh;
+    background-size: contain;
+    background-position: center;
+  }
+}
