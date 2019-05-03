@@ -1,4 +1,4 @@
-# image-carousel
+# Image Carousel
 
 This project is based on the Background Image Slider Project in the
 [Javascript Tutorial and Projects Course](https://www.udemy.com/javascript-tutorial-for-beginners/) by John Smilga.
