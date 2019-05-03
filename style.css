@@ -37,6 +37,7 @@ body {
   border-color: var(--mainWhite);
   background: var(--mainDark);
   color: var(--mainWhite) !important;
+  cursor: pointer;
 }
 .btn-right {
   position: absolute;
@@ -54,6 +55,7 @@ body {
   border-color: var(--mainWhite);
   background: var(--mainDark);
   color: var(--mainWhite) !important;
+  cursor: pointer;
 }
 /* Set display for mobile devices */
 @media screen and (min-width: 900px) {
