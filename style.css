@@ -66,13 +66,14 @@ body {
 }
 @media screen and (min-width: 768px) {
   .img-container {
-    min-height: 70vh;
+    top: 4em;
+    min-height: 80vh;
     background-size: cover;
   }
 }
 @media screen and (max-width: 420px) {
   .img-container {
-    top: 15em;
+    top: 8em;
     min-height: 30vh;
     background-size: contain;
     background-position: center;
