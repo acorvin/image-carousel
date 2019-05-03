@@ -13,7 +13,7 @@
       let value = event.target
 
       // Navigation Button left
-      if (value.classList.contains('btn-left')) {
+      if (value.parentElement.classList.contains('btn-left')) {
         counter--
         if (counter < 0) {
           counter = pictures.length - 1
@@ -24,7 +24,7 @@
         ).style.backgroundImage = `url('img/${pictures[counter]}.jpg')`
       }
       // Navigation Button right
-      if (value.classList.contains('btn-right')) {
+      if (value.parentElement.classList.contains('btn-right')) {
         counter++
         if (counter > pictures.length - 1) {
           counter = 0
